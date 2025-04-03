@@ -3,9 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Michelle's Weather App</title>
   </head>
   <body>
-    <h1>Weather App</h1>
+    <header>logo here</header>
+  <main>
+    <span class="city">
+    <h1>Paris</h1>
+    </span>
+    <span class="current-temperature">
+      <h2>18º</h2>
+    </span>
+    <span class="current-daytime">
+      <p>Friday</p>
+    </br>
+      <p>14:48</p>
+    </span>
+    <div class="weather-info">
+      <div class="current-weather-icon">
+        <p>current weather icon here</p>
+      </div>
+      <aside>
+        <p>current weather description</p>
+      </br>
+        <p>Humidity</p>
+      </br>
+        <p>Wind</p>
+      </aside>
+    </div>
+  </main> 
+  <section>
+    <form>
+      <input type="search" placeholder="Enter a city..." required/>
+      <input type="submit" value="Search"/>
+    </form>
+  </section>
+  <section class="weather-forecast">
+    <div class="weather-forecast-day">Friday</div>
+    <div class="weather-forecast-icon">icon here</div>
+    <div class="weather-forecast-temperatures">
+      <div class="weatherforecast-dailytemp">
+        <strong>19º</strong>
+      </div>
+      <div class="weatherforecast-dailytemp">15º</div>
+    </div>
+    <section class="weather-forecast" id="forecast"></section>
+  </section>
+  <footer>
+    This project was created by
+    <a href="https://github.com/mpokodner" target="_blank">Michelle Pokodner</a>
+    is
+    <a href="https://github.com/mpokodner/VanillaWeatherApp" target="_blank">open sourced on GitHub</a>
+    and
+    <a href="https://michellesweatherforecastapp.netlify.app/" target="_blank">hosted on Netlify</a>
+  </footer>
   </body>
 </html>
