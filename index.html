@@ -7,44 +7,57 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>logo here</header>
-    <h1 class="current-city">Paris</h1>
-    <main>
-      <span class="current-weather-icon"></span>
-      <h3>img</h3>
-      <span class="current-temperature">
-        <h2>18º</h2>
-      </span>
-      <span class="current-daytime">
-        <p>Friday, 14:48</p>
-      </span>
-    </main>
-    <section class="current-weather-description">
-      <ul>
-        <li>description</li>
-        <li>humidity</li>
-        <li>wind</li>
-      </ul>
-    </section>
-    <section class="search-form"></section>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
+    <div class="weather-app">
+      <header>
+        <img src="logo.png" alt="logo" />
+      </header>
+      <h1 class="current-city">Paris</h1>
+      <main>
+        <span class="current-weather-icon"></span>
+        <h3>img</h3>
+        <span class="current-temperature">
+          <h2>18º</h2>
+        </span>
+        <span class="current-daytime">
+          <p>Friday, 14:48</p>
+        </span>
+      </main>
+      <section class="current-weather-description">
+        <ul>
+          <li>Description:</li>
+          <li>Humidity:</li>
+          <li>Wind:</li>
+        </ul>
+      </section>
+      <form class="search-form">
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+          class="search-form-input"
+        />
+        <input type="submit" value="Search" class="search-form-button" />
       </form>
-    </section>
-    <footer>
-      This project was created by
-      <a href="https://github.com/mpokodner" target="_blank"
-        >Michelle Pokodner</a
-      >
-      is
-      <a href="https://github.com/mpokodner/VanillaWeatherApp" target="_blank"
-        >open sourced on GitHub</a
-      >
-      and
-      <a href="https://michellesweatherforecastapp.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        <p>
+          This project was created by
+          <a href="https://github.com/mpokodner" target="_blank"
+            >Michelle Pokodner</a
+          >
+          is
+          <a
+            href="https://github.com/mpokodner/VanillaWeatherApp"
+            target="_blank"
+            >open sourced on GitHub</a
+          >
+          and is
+          <a
+            href="https://michellesweatherforecastapp.netlify.app/"
+            target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
