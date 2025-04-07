@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michelle's Weather App</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
@@ -16,18 +16,18 @@
       <main>
         <span class="current-weather-icon"></span>
         <h3>img</h3>
-        <span class="current-temperature">
+        <span class="current-temperature" id="temperature">
           <h2>18º</h2>
         </span>
         <span class="current-daytime">
-          <p>Friday, 14:48</p>
+          <p id="day-time">Friday,14:48</p>
         </span>
       </main>
       <section class="current-weather-description">
         <ul>
-          <li>Description:</li>
-          <li>Humidity:</li>
-          <li>Wind:</li>
+          <li>Description:<strong id="description">Cloudy</strong></li>
+          <li>Humidity: <strong id="humidity">70%</strong></li>
+          <li>Wind: <strong id="wind-speed">10km/h</strong></li>
         </ul>
       </section>
       <form class="search-form">
