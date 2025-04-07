@@ -25,6 +25,8 @@ main {
 
 .current-weather-icon {
   display: flex;
+  width: 95px;
+  height: 100px;
 }
 .current-temperature {
   display: flex;
