@@ -10,27 +10,25 @@
   <body>
     <div class="weather-app">
       <header>
-        <img src="logo.png" alt="logo" />
+        <img src="logo.png" alt="Michelle's Weather App Logo" />
       </header>
+
       <h1 class="city">Paris</h1>
+
       <main>
-        <h3>
-          <div id="icon"></div>
-        </h3>
-        <span class="current-temperature" id="temperature">
-          <h2>18º</h2>
-        </span>
-        <span class="current-daytime">
-          <p id="day-time">Friday,14:48</p>
-        </span>
+        <div id="icon"></div>
+        <h2 class="current-temperature" id="temperature">18°C</h2>
+        <p class="current-daytime" id="day-time">Friday, 14:48</p>
       </main>
+
       <section class="current-weather-description">
         <ul>
-          <li>Description:<strong id="description">Cloudy</strong></li>
+          <li>Description: <strong id="description">Cloudy</strong></li>
           <li>Humidity: <strong id="humidity">70%</strong></li>
-          <li>Wind: <strong id="wind-speed">10km/h</strong></li>
+          <li>Wind: <strong id="wind-speed">10 km/h</strong></li>
         </ul>
       </section>
+
       <form class="search-form">
         <input
           type="search"
@@ -40,26 +38,110 @@
         />
         <input type="submit" value="Search" class="search-form-button" />
       </form>
+
+      <section class="weather-forecast">
+        <div class="flexbox-container">
+          <!-- Forecast Day Example (repeat as needed) -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Tues.</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°C</div>
+            </div>
+          </div>
+
+          <!-- Duplicate as needed for additional days -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Wed.</div>
+            <div class="weather-forecast-icon">🌧️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">7°C</div>
+            </div>
+          </div>
+
+          <!-- Duplicate as needed for additional days -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Wed.</div>
+            <div class="weather-forecast-icon">🌧️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">7°C</div>
+            </div>
+          </div>
+
+          <!-- Duplicate as needed for additional days -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Wed.</div>
+            <div class="weather-forecast-icon">🌧️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">7°C</div>
+            </div>
+          </div>
+
+          <!-- Duplicate as needed for additional days -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Wed.</div>
+            <div class="weather-forecast-icon">🌧️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">7°C</div>
+            </div>
+          </div>
+
+          <!-- Duplicate as needed for additional days -->
+          <div class="flexbox-item daily-forecast">
+            <div class="weather-forecast-day">Wed.</div>
+            <div class="weather-forecast-icon">🌧️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13°C</strong>
+              </div>
+              <div class="weather-forecast-temperature">7°C</div>
+            </div>
+          </div>
+          <!-- Add more .daily-forecast blocks for more days -->
+        </div>
+      </section>
+
       <footer>
-        <p>
-          This project was created by
-          <a href="https://github.com/mpokodner" target="_blank"
-            >Michelle Pokodner</a
-          >
-          is
-          <a
-            href="https://github.com/mpokodner/VanillaWeatherApp"
-            target="_blank"
-            >open sourced on GitHub</a
-          >
-          and is
-          <a
-            href="https://michellesweatherforecastapp.netlify.app/"
-            target="_blank"
-            >hosted on Netlify</a
-          >
-        </p>
+        <div class="container">
+          <p>
+            This project was created by
+            <a
+              href="https://github.com/mpokodner"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Michelle Pokodner</a
+            >, is
+            <a
+              href="https://github.com/mpokodner/VanillaWeatherApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              >open-sourced on GitHub</a
+            >, and is
+            <a
+              href="https://michellesweatherforecastapp.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >hosted on Netlify</a
+            >.
+          </p>
+        </div>
       </footer>
+
       <script src="index.js"></script>
     </div>
   </body>
